@@ -37,6 +37,7 @@
                     <x-dropdown-link :href="route('profile')">
                             {{ __('My Profile') }}
                         <!-- Authentication -->
+                    </x-dropdown-link>
                         <form method="POST" action="{{ route('logout') }}">
                             @csrf
 
@@ -81,6 +82,7 @@
             <x-responsive-nav-link :href="route('profile')">
                     {{ __('My Profile') }}
                 <!-- Authentication -->
+            </x-responsive-nav-link>
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
 
